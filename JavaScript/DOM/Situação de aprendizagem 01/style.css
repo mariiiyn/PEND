@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #2e003e, #6a0dad, #c77dff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+input {
+    padding: 5px;
+    width: 200px;
+    background-color: rgb(196, 141, 255);
+    border-color: rgb(217, 177, 255);
+    border: 1px solid;
+   
+}
+
+.cadastrar {
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(229, 202, 255);
+    color: rgb(63, 35, 95);
+    border: none;
+    cursor: pointer;
+}
+
+
+div {
+    background-color: rgb(189, 122, 255);
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    color: white;
+}
+.ADDtelefone {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+h2 {
+    color: rgb(227, 192, 255);
+}

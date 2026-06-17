@@ -1,0 +1,66 @@
+RELATÓRIO DE DESENVOLVIMENTO DO SITE NEWSTODAY
+
+1. Quais melhorias foram realizadas
+
+ Criação de um layout mais organizado e moderno para exibição das notícias.
+ Inclusão de uma identidade visual com logo e título do site.
+ Implementação de um menu de navegação com links internos para facilitar o acesso às seções.
+ Adição de efeito de rolagem suave (scroll-behavior: smooth) para melhorar a experiência de navegação.
+ Utilização de imagens ilustrativas para tornar o conteúdo mais atrativo visualmente.
+ Aplicação de efeitos de interação (hover) nas notícias e nos links do menu.
+ Criação de um cabeçalho fixo (sticky) para manter a navegação sempre acessível.
+ Organização das notícias em categorias: Tecnologia, Esportes e Economia.
+ Desenvolvimento de um rodapé contendo informações de contato.
+
+2. Quais elementos semânticos foram utilizados
+
+Foram utilizados elementos semânticos do HTML5 para organizar melhor a estrutura da página:
+
+ `<header>`: utilizado para o cabeçalho principal do site.
+ `<nav>`: utilizado para o menu de navegação.
+ `<main>`: utilizado para agrupar o conteúdo principal da página.
+ `<section>`: utilizado para separar as categorias de notícias.
+ `<article>`: utilizado para representar cada notícia individualmente.
+ `<footer>`: utilizado para o rodapé com informações de contato.
+ `<h1>`, `<h2>` e `<h3>`: utilizados para criar uma hierarquia de títulos.
+ `<p>`: utilizado para os textos e descrições das notícias.
+
+3. Quais Media Queries foram implementadas
+
+Foi implementada uma Media Query para dispositivos com largura máxima de 800px:
+
+`@media (max-width: 800px)`
+
+Alterações realizadas:
+
+ Redução do espaçamento entre os itens do menu.
+ Diminuição do tamanho do título principal da área de destaque.
+ Redução do tamanho dos títulos das seções.
+ Alteração do layout das notícias de duas colunas para uma única coluna.
+ Redução do tamanho dos títulos das notícias.
+ Diminuição do tamanho do nome do site no cabeçalho.
+
+Essas adaptações tornam o site responsivo para tablets e smartphones.
+
+4. Quais decisões de UX e UI foram adotadas
+
+UX (Experiência do Usuário)
+
+ Navegação simples e intuitiva através do menu superior.
+ Links internos que levam diretamente para cada seção da página.
+ Cabeçalho fixo para facilitar a navegação durante a leitura.
+ Estrutura organizada por categorias de notícias.
+ Layout responsivo para diferentes tamanhos de tela.
+ Informações de contato facilmente localizadas no rodapé.
+
+UI (Interface do Usuário)
+
+ Uso da fonte Georgia para transmitir seriedade e credibilidade jornalística.
+ Paleta de cores limpa e profissional, com destaque em vermelho para elementos importantes.
+ Espaçamento adequado entre os componentes para melhorar a leitura.
+ Imagens destacadas em cada notícia para atrair a atenção do usuário.
+ Bordas e divisões visuais para separar os conteúdos.
+ Efeito de animação nas notícias ao passar o mouse, aumentando a interatividade.
+ Logo posicionada ao lado do nome do site para fortalecer a identidade visual da marca.
+
+
